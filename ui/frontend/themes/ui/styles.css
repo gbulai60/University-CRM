@@ -1,0 +1,25 @@
+@import url('./main-layout.css');
+@import url('./views/listcourses-view.css');
+@import url('views/listpersons-view.css');
+@import url('views/grades-view.css');
+@import url('views/addperson-view.css');
+@import url('views/addCourse-view.css');
+@import url('views/modifyloginandpassword-view.css');
+ .mytextfield {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.text-stil {
+    color: #ffffff;
+    font-style: italic;
+}
+.text1-stil{
+    color: white;
+}
+.layout-stil{
+    background-color: #eaecee;
+}
+.layout1-stil{
+    background-color: black;
+}
+

@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "D:/Java/Microservice/microservice-university/ui/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "D:/Java/Microservice/microservice-university/ui/frontend/generated/jar-resources",
+  "staticOutput": "D:/Java/Microservice/microservice-university/ui/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "D:\\Java\\Microservice\\microservice-university\\ui\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "D:\\Java\\Microservice\\microservice-university\\ui\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "D:/Java/Microservice/microservice-university/ui/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "D:/Java/Microservice/microservice-university/ui/src/main/dev-bundle/config",
+  "jarResourcesFolder": "D:/Java/Microservice/microservice-university/ui/frontend/generated/jar-resources",
+  "themeName": "ui",
+  "clientServiceWorkerSource": "D:\\Java\\Microservice\\microservice-university\\ui\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

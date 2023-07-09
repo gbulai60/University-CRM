@@ -1,0 +1,16 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "D:\\Java\\Microservice\\microservice-university\\ui",
+  "node.version": "v18.16.0",
+  "node.download.root": "https://nodejs.org/dist/",
+  "frontendFolder": "D:\\Java\\Microservice\\microservice-university\\ui\\frontend",
+  "connect.javaSourceFolder": "D:\\Java\\Microservice\\microservice-university\\ui\\src\\main\\java",
+  "javaResourceFolder": "D:\\Java\\Microservice\\microservice-university\\ui\\src\\main\\resources",
+  "connect.applicationProperties": "D:\\Java\\Microservice\\microservice-university\\ui\\src\\main\\resources\\application.properties",
+  "connect.openApiFile": "D:\\Java\\Microservice\\microservice-university\\ui\\target\\generated-resources\\openapi.json",
+  "project.frontend.generated": "D:\\Java\\Microservice\\microservice-university\\ui\\frontend\\generated",
+  "pnpm.enable": false,
+  "require.home.node": false,
+  "build.folder": "target"
+}

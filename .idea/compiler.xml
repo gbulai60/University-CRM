@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/student-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/person-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/course-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/studentCourse-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/discovery-server/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/api-gateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/university/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="studentCourse-service" />
+        <module name="course-service" />
+        <module name="discovery-server" />
+        <module name="teacher-service" />
+        <module name="ui" />
+        <module name="person-service" />
+        <module name="api-gateway" />
+        <module name="student-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="UI" target="19" />
+      <module name="university" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="UI" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="course-service" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
+      <module name="microservice-university" options="" />
+      <module name="person-service" options="-parameters" />
+      <module name="student-service" options="-parameters" />
+      <module name="studentCourse-service" options="-parameters" />
+      <module name="teacher-service" options="-parameters" />
+      <module name="ui" options="-parameters" />
+      <module name="university" options="-parameters" />
+    </option>
+  </component>
+</project>
